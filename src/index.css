@@ -1,0 +1,43 @@
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	--bg-color: #ffffff;
+	--text-color: #1f2937;
+	--card-bg: #ffffff;
+	--border-color: #e5e7eb;
+	--grid-color: #f0f0f0;
+	--chart-tooltip-bg: #fff;
+	--chart-tooltip-border: #e5e7eb;
+
+	background-color: var(--bg-color);
+}
+
+.theme-dark {
+	--bg-color: #111827;
+	--text-color: #f9fafb;
+	--card-bg: #1f2937;
+	--border-color: #374151;
+	--grid-color: #374151;
+	--chart-tooltip-bg: #1f2937;
+	--chart-tooltip-border: #374151;
+}
+html {
+	background-color: var(--bg-color);
+	height: 100%;
+}
+
+body {
+	background-color: var(--bg-color);
+	color: var(--text-color);
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	margin: 0;
+	min-height: 100%;
+	transition: background-color 0.2s, color 0.2s;
+}
